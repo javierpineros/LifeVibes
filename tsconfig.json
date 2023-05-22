@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es2018",        /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
+    "lib": ["ES2018", "DOM"],  /* Specify library files to be included in the compilation. */
+    "allowJs": true,           /* Allow javascript files to be compiled. */
+    "jsx": "react-jsx",            /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
+
+    "skipLibCheck": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "baseUrl": "."
+  },
+  "include": [
+    "src/dfx14prj_frontend/src/*", 
+    "src/dfx14prj_frontend/src/loaders/svg.d.ts",
+    "src/dfx14prj_frontend/src/components/CreatorDialog.tsx", 
+    "src/dfx14prj_frontend/src/components/AlertDialog.tsx", 
+    "src/dfx14prj_frontend/src/components/DynamicCompleteDialog.tsx",
+    "src/dfx14prj_frontend/src/components/DynamicDialog.tsx", 
+    "src/dfx14prj_frontend/src/components/RankingBoard.tsx", 
+    "src/dfx14prj_frontend/src/components/Wall.tsx", 
+    "src/dfx14prj_frontend/src/components/UserMenu.tsx", 
+    "src/dfx14prj_frontend/src/components/SimpleBackdrop.tsx", 
+    "src/dfx14prj_frontend/src/loaders/jpg.d.ts"    
+  ],
+}

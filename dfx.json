@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "dfx14prj_backend": {
+      "main": "src/dfx14prj_backend/main.mo",
+      "type": "motoko"
+    },
+    "dfx14prj_frontend": {
+      "dependencies": [
+        "dfx14prj_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/dfx14prj_frontend/src/index.html"
+      },
+      "source": [
+        "src/dfx14prj_frontend/assets",
+        "dist/dfx14prj_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
