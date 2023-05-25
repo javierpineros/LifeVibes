@@ -1,10 +1,10 @@
 {
   "dfx14prj_backend": {
-    "local": "bkyz2-fmaaa-aaaaa-qaaaq-cai",
-    "ic": "g5k5c-riaaa-aaaap-aa6yq-cai"
+    "local": "",
+    "ic": ""
   },
   "dfx14prj_frontend": {
-    "local": "bd3sg-teaaa-aaaaa-qaaba-cai",
-    "ic": "3q4xa-kaaaa-aaaap-abbca-cai"
+    "local": "",
+    "ic": ""
   }
 }
